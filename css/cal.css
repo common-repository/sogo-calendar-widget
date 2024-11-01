@@ -1,0 +1,228 @@
+.oh_calendar_widget .blue.widget-title{margin-bottom: 0;}
+.calendar {
+    width: 100%;
+}
+.calendar-wrapper{
+    border:1px solid #F1F1F1 ;
+    position: relative;
+    background: #fff;
+    text-align: center;
+}
+.calendar-wrapper .month-nav {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    direction: ltr;
+
+}
+.calendar-wrapper #cal-next,.calendar-wrapper #cal-prev{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 15px;
+    color: #656565;
+}
+.calendar-wrapper #cal-next:hover,.calendar-wrapper #cal-prev:hover{text-decoration: none;
+    color: #a6ce39;
+}
+
+ .calendar-wrapper #cal-next{float:right} 
+ .calendar-wrapper #cal-prev{float:left}
+
+.rtl .calendar-wrapper #cal-next{float:left}
+.rtl .calendar-wrapper #cal-prev{float:right}
+
+.calendar-wrapper table{
+    margin:0;
+    color: #18486B;
+}
+.calendar-wrapper table td{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 26px;
+    font-size: 15px;
+}
+.calendar-wrapper h2{
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding:10px 0;
+    border-bottom: 1px solid #fff;
+}
+.calendar-day-head {
+    border-top: none;
+    color: #a6ce39;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.day-number {
+    padding: 6px 0;
+    color: #656565;
+    font-weight: bold;
+}
+.calendar-wrapper .event-details h3{
+    padding:0;
+    font-size: 18px;
+    margin:0;
+}
+.calendar-wrapper .calendar-day{cursor: default; text-align: center;vertical-align: middle    ;color: #18486B;}
+.calendar-wrapper .calendar-day.has_events {
+    cursor: pointer;
+    background: #B5CD40;
+}
+
+.calendar-wrapper .footer-calendar {
+    border-top: 1px solid;
+    padding: 10px ;
+    text-align: right;
+}
+div.footer-calendar a {
+    font-weight: 400;
+}
+.footer-calendar span {
+    font-size: 13px;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+}
+
+/* RTL section */
+
+
+
+
+
+
+.bubblingG {
+    margin:60px auto;
+    text-align: center;
+    width:40px;
+    height:25px;
+}
+
+.bubblingG span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    margin: 13px auto;
+    background: #000000;
+    -moz-border-radius: 25px;
+    -moz-animation: bubblingG 0.8s infinite alternate;
+    -webkit-border-radius: 25px;
+    -webkit-animation: bubblingG 0.8s infinite alternate;
+    -ms-border-radius: 25px;
+    -ms-animation: bubblingG 0.8s infinite alternate;
+    -o-border-radius: 25px;
+    -o-animation: bubblingG 0.8s infinite alternate;
+    border-radius: 25px;
+    animation: bubblingG 0.8s infinite alternate;
+}
+
+#bubblingG_1 {
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+#bubblingG_2 {
+    -moz-animation-delay: 0.24s;
+    -webkit-animation-delay: 0.24s;
+    -ms-animation-delay: 0.24s;
+    -o-animation-delay: 0.24s;
+    animation-delay: 0.24s;
+}
+
+#bubblingG_3 {
+    -moz-animation-delay: 0.48s;
+    -webkit-animation-delay: 0.48s;
+    -ms-animation-delay: 0.48s;
+    -o-animation-delay: 0.48s;
+    animation-delay: 0.48s;
+}
+
+@-moz-keyframes bubblingG {
+    0% {
+        width: 5px;
+        height: 5px;
+        background-color:#000000;
+        -moz-transform: translateY(0);
+    }
+
+    100% {
+        width: 12px;
+        height: 12px;
+        background-color:#FFFFFF;
+        -moz-transform: translateY(-11px);
+    }
+
+}
+
+@-webkit-keyframes bubblingG {
+    0% {
+        width: 5px;
+        height: 5px;
+        background-color:#000000;
+        -webkit-transform: translateY(0);
+    }
+
+    100% {
+        width: 12px;
+        height: 12px;
+        background-color:#FFFFFF;
+        -webkit-transform: translateY(-11px);
+    }
+
+}
+
+@-ms-keyframes bubblingG {
+    0% {
+        width: 5px;
+        height: 5px;
+        background-color:#000000;
+        -ms-transform: translateY(0);
+    }
+
+    100% {
+        width: 12px;
+        height: 12px;
+        background-color:#FFFFFF;
+        -ms-transform: translateY(-11px);
+    }
+
+}
+
+@-o-keyframes bubblingG {
+    0% {
+        width: 5px;
+        height: 5px;
+        background-color:#000000;
+        -o-transform: translateY(0);
+    }
+
+    100% {
+        width: 12px;
+        height: 12px;
+        background-color:#FFFFFF;
+        -o-transform: translateY(-11px);
+    }
+
+}
+
+@keyframes bubblingG {
+    0% {
+        width: 5px;
+        height: 5px;
+        background-color:#000000;
+        transform: translateY(0);
+    }
+
+    100% {
+        width: 12px;
+        height: 12px;
+        background-color:#FFFFFF;
+        transform: translateY(-11px);
+    }
+
+}
